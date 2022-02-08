@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+*{
+    margin: 0 0 0 0;
+}
+body{
+    background-color: #f6f6f6;
+}
+header{
+    background: rgb(40,219,208);
+    background: linear-gradient(0deg, rgba(40,219,208,0.29931722689075626) 18%, rgba(87,174,223,1) 84%);
+    margin-bottom: 20px;
+}
+header img{
+    display: inline-block;
+    height: 80px;
+    padding: 20px;
+}
+header img{
+    display: inline-block;
+    height: 80px;
+    padding: 10px;
+
+}
+header nav{
+    display: inline-block;
+    float: right;
+    margin:  0 0 0 0;
+}
+header nav ul{
+    list-style: none;
+}
+header nav li{
+    display: inline-block;
+    font-family: Poppins;
+    color: black;
+    padding-top: 35px;
+    padding-right: 20px;
+    text-transform: uppercase;
+}
+header nav a{
+    color: black;
+    padding: 7px;
+    text-decoration: none;
+}
+header nav a:hover{
+    color: aliceblue;
+    border-bottom: 2px solid black;
+    padding: 7px;
+    transition: 0.5s all;
+}
+main{
+    background-color: #B8EEEA;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-between;
+    justify-content: space-between;
+    padding: 2%;
+}
+.cardIntrodutorio{
+    background-color: #fff;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    flex-flow: column wrap;
+    text-align: center;
+    width: 30%;
+    height: auto;
+    margin-top: 2%;
+    padding: 1%;
+    border-radius: 20px;
+}
+.cardIntrodutorio h1{
+    color: #B9EEEB;
+    font-family: Poppins;
+}
+.cardIntrodutorio span{
+    font-family: Poppins;
+}
+footer{
+    background-color: #B9EEEB;
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+}
+footer span{
+    color: #E6E6E6;
+    font-family: Poppins;
+}
+#mainLogin{
+    font-family: Poppins;
+    
+}
+#mainLogin label{
+    color: #191919;
+}
+.statuses{
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-around;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+}
+.statuses input{
+    border-radius: 30px;
+    border: 0;
+    width: 22%;
+    height: 80px;
+    margin-bottom: 40px;
+    font-size: 24px;
+    font-weight: 900;
+}
+#mainLogin Form{
+    background-color: #fff;
+    border-radius: 20px;
+    width: 80%;
+    height: auto;
+    margin: auto;
+    padding: 25px 20px;
+    overflow: hidden;
+}
+#mainLogin Form select{
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ced4da;
+    border-radius: 3px;
+}
+#mainLogin table{
+    background-color: #fff;
+    border-collapse: collapse;
+    text-align: center;
+    border: 1px solid black;
+    width: 100%;
+    margin: 0 auto 20px auto;
+    overflow-y: scroll;
+    height: 60px;
+}
+.mc{
+    width: 100%;
+    margin: auto;
+}
+.mc h1{
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.mc label{
+    text-align: left;
+}
+#mainLogin table th{
+    width: 20%;
+}
+#mainLogin h1{
+    font-weight: bold;
+    font-size: 32px;
+}
+#mainLogin h3{
+    font-weight: 300;
+    font-size: 16px;
+}
+#mainLogin label{
+    font-size: 16px;
+    font-weight: bold;
+}
+.inputG{
+    border: 1px solid #ced4da;
+    border-radius: 3px;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+.inputG::placeholder{
+    color: black;
+    text-align: right;
+}
+.inputG:focus::placeholder{
+    color: black;
+}
+#submitenviar{
+    background-color: #778899;
+    color: #fff;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: bold;
+    border: 0px;
+    width: 100%;
+    padding: 10px ;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+#submitenviar:hover{
+    background: rgb(40,219,208);
+    background: linear-gradient(0deg, rgba(40,219,208,0.19931722689075626) 18%, rgba(87,174,223,1) 84%);
+    transition: .5s all;
+}
+#mainSobre{
+    background-color: #fff;
+    font-family: Poppins;
+    border-radius: 10px;
+    padding: 20px;
+}
+#mainSobre h1, h2{
+    color: #7da3cf;
+}
+.heightSistema{
+    height: 600px;
+    width: 80%;
+
+}
+footer{
+    background-color: #B8EEEA;
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    border-top: 20px solid #f6f6f6;
+}
+footer span{
+    color: black;
+}
+#fuuter{
+    position:static;
+}
+
+.muc{
+   
+  overflow:auto;
+  height: 200px;
+  width: 100%;
+
+}
+@media only screen and (max-width: 645px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    header img{
+        display: block;
+    }
+    header nav{
+        display: block;
+        float: none;
+    }
+    header nav li{
+        display: block;
+        margin: 0 0 0 0;
+        padding: 0 0;
+        width: 100%;
+        text-align: center;
+
+
+    }
+    header nav a{
+        padding: 0 29%;
+        width: 100%;
+        margin: 0 1%;
+    }
+    main{
+        flex-flow: column wrap;
+    }
+    .cardIntrodutorio{
+        width: 100%;
+    }
+    #mainLogin form{
+        width: 87%;
+        margin: auto;
+    }
+    footer{
+        border: 0;
+    }
+}
